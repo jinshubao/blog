@@ -39,7 +39,7 @@ let routes = [
         path: '/',
         component: Home,
         name: '导航二',
-        iconCls: 'fa fa-id-card-o',
+        iconCls: 'el-icon-menu',
         children: [
             { path: '/page4', component: Page4, name: '页面4' },
             { path: '/page5', component: Page5, name: '页面5' }
@@ -49,7 +49,7 @@ let routes = [
         path: '/',
         component: Home,
         name: '',
-        iconCls: 'fa fa-address-card',
+        iconCls: 'el-icon-picture',
         leaf: true,//只有一个节点
         children: [
             { path: '/page6', component: Page6, name: '导航三' }
@@ -59,7 +59,7 @@ let routes = [
         path: '/',
         component: Home,
         name: 'Charts',
-        iconCls: 'fa fa-bar-chart',
+        iconCls: 'el-icon-star-on',
         children: [
             { path: '/echarts', component: echarts, name: 'echarts' }
         ]
